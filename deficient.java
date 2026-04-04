@@ -6,10 +6,10 @@ public class deficient{
 
         System.out.print("Enter a number :");
         int n=sc.nextInt();
-        System.out.print(abundant(n)? "Abundant number" : "Not abundant number");
+        System.out.print(deficientno(n)? "Deficient number" : "Not deficient number");
     }
 
-    public static boolean abundant(int n){
+    public static boolean deficientno(int n){
         int sum =0;
         for(int i=1;i<=n/2;i++)
         {
