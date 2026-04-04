@@ -1,6 +1,6 @@
 import java.util.*;
 public class sunnyno{
-    public static void main(String[] args){
+    public static void main(String []args){
         Scanner sc=new Scanner (System.in);
 
         System.out.print("Enter a number :");
@@ -10,13 +10,14 @@ public class sunnyno{
 
     }
     public static boolean sunny(int n){
-        int next = n + 1;
-        for(int i=1; i*i<=next; i++){
-            if(i*i == next){
+            int temp=n+1;
+            for(int i=1;i*i<=temp;i++)
+            {
+                if(i*i==temp)
+                {
                 return true;
-            }
-        }
-        return false;
+                }
+            }return false;
     }
 
 }
