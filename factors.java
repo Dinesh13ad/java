@@ -11,7 +11,7 @@ public class factors{
 
     public static void factors(int n){
 
-        for(int i=1;i<=n/2;i++)
+        for(int i=1;i<=n;i++)
         {
             if(n%i==0)
             {
